@@ -1,38 +1,61 @@
 body{
-    color:rgb(67, 126, 216);
-    text-align: center;
-    font-family: 'Arial';
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    }
-    
-    #conteiner{
-    width: 70%;
-    text-align: left;
-    border: 1px solid #DDD;
-    margin-top: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
-    border-radius: 15px;
-    box-shadow: darkslategray;
+    margin: 0px;
+}
+
+#barra{
+    padding: 0px;
+    border-bottom:solid rgba(27, 11, 11, 0.082) 1px;
+    box-shadow: rgba(216, 205, 205, 0.308) 1px 1px 6px 1px;
+
+}
+ ul{
+     padding: 0px;
+     margin: 0px;
+     height: 6vh;
     
     }
-    
-    #conteiner h1{
-        font-size: 20px;
-        padding-left: 10px;
-    }
-    
-    #cabecera{
-        border-radius: 15px 15px 0px 0px;
-        background-color: rgb(67, 126, 216);
-        color: darkslategray;
-        font-family: fantasy;
-        font-size: 25px;
-        padding: 8px;
-    }
-    
-    p{
-        padding: 10px;
-    }
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1vw;
+    color:rgb(100, 167, 255);
+    font-family:Impact;
+    font-size: 3vh;
+
+}    
+
+li:hover{
+    font-size: 3.2vh;
+    padding-top: 1.4vh;
+    padding-bottom: 1.4vh;
+}
+header{
+    font-size:2.5vh;
+    color:rgb(100, 167, 255);
+    font-family: Impact;
+}
+p{
+    font-family: Impact;
+    font-size:2vh;
+    color:rgb(149, 153, 153)
+}
+
+#contenedor{
+    padding: 3vw;
+}
+
+footer{
+    background-color:rgb(100, 167, 255);
+    padding: 3vw;
+    height: 15vh;
+    bottom: 0px;
+}
+
+footer h1{
+    color: #fff;
+    display: inline-block;
+    padding-left: 3vw;
+}

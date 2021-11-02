@@ -1,5 +1,6 @@
 <template>
-  <div class="head">
+  <div class="container">
+    <div class="head">
       <div class="logo-box">
         <div class="logo">
             <span class="text1">Quantum </span>
@@ -16,7 +17,7 @@
           </div>
         </div>
         
-  </div>
+    </div>
       <div class="rutas" :class="{showhide}" >
         <ul>
           <li>Principal</li>
@@ -25,6 +26,8 @@
           <li>Opcion 3</li>
         </ul>
     </div>    
+  </div>
+  
   
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,6 +58,11 @@ export default {
   margin: 0;
   box-sizing: border-box;
 }
+.container{
+  animation: entrada 0.3s ease-in;
+  position: fixed;
+  top:0; 
+}
 .head {
   width: 100vw;
   height: 5vh;
@@ -63,7 +71,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 10px 0px 10px; 
+  padding: 0 10px 0px 10px;
 }
 .logo-box {
   display: flex;

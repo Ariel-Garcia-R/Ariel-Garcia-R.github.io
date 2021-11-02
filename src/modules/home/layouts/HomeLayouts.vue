@@ -2,15 +2,19 @@ import Header from '@/shared/components/Header.vue';
 <template>
   <Header/>
   <BarraOpciones/>
+  <SlideInformation/>
 </template>
 
 <script>
 import Header from '@/components/Header'
 import BarraOpciones from '@/modules/home/components/BarraOpciones'
+import SlideInformation from '@/modules/home/components/SlideInformation'
+
 export default {
 components: {
   Header,
-  BarraOpciones
+  BarraOpciones,
+  SlideInformation
 }
 
 }
@@ -19,7 +23,8 @@ components: {
 <style>
 * {
   padding: 0;
-  margin: 0
+  margin: 0;
+  box-sizing: border-box;
 }
 
 </style>

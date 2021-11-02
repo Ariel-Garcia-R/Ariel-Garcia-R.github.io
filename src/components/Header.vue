@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="head-container">
     <div class="head">
       <div class="logo-box">
         <div class="logo">
@@ -30,10 +30,7 @@
   
   
   
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  
 </template>
 
 
@@ -53,15 +50,12 @@ export default {
 </script>
 
 <style scoped>
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-.container{
+.head-container{
   animation: entrada 0.3s ease-in;
-  position: fixed;
-  top:0; 
+  position:fixed;
+  top: 0;
+  z-index: 10;
+
 }
 .head {
   width: 100vw;
@@ -124,7 +118,7 @@ export default {
   transform: scale(1,0);
   transform-origin: top;
   transition: transform 0.3s;
-
+  position:absolute
 }
 ul{
   height: 100%;

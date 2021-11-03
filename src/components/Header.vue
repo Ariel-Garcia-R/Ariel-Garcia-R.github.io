@@ -74,7 +74,6 @@ export default {
   height: 100%;
 }
 .logo span {
-  font-family: 'Zen Kurenaido', sans-serif;
   text-transform: uppercase;
 }
 .text1{
@@ -104,8 +103,8 @@ export default {
 }
 
 .barra {
-    width: 4vw;
-    height: 0.5vw;
+    width: 20px;
+    height: 2px;
     background-color: white;
 }
 

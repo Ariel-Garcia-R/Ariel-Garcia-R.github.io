@@ -21,9 +21,10 @@ export default {
 
 nav{
     background-color: #212121;
-    overflow: scroll;
+    overflow: auto;
     white-space: nowrap;
     margin-top: 5vh;
+    border-bottom: 1px solid #DED9C4;
 
     a{
         display: inline-block;
@@ -31,11 +32,13 @@ nav{
         text-align: center;
         padding: 10px;
         text-decoration: none;
-        font-family: 'Zen Kurenaido', sans-serif;  
-    }
-    &:hover{
+        font-family: 'Zen Kurenaido', sans-serif;
+        
+        &:hover{ 
         background-color: #777;
+    }  
     }
+    
 }     
 
 .prueba{

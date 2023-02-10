@@ -10,8 +10,12 @@
 </template>
 
 <script>
-import PokemonPicture from "@/components/PokemonPicture";
-import PokemonOptions from "@/components/PokemonOptions";
+import  PokemonPicture  from "@/components/PokemonPicture";
+import  PokemonOptions  from "@/components/PokemonOptions";
+import getPokemonOptions from '@/helpers/getPokemonOptions'
+
+console.log( getPokemonOptions() );
+
 export default {
   name: "PokemonPage",
   components: { PokemonPicture, PokemonOptions },

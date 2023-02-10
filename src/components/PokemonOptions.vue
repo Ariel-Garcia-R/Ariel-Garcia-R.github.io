@@ -1,5 +1,5 @@
 <template>
-  <h3>Estas son las opciones de Fernando</h3>
+  <h3>Opciones de Fernando:</h3>
   <h4>La primera es la correcta siempre</h4>
   <div class="options-container">
     <ul>

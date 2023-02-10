@@ -1,5 +1,6 @@
 <template>
-  <h3>Pokemon Options</h3>
+  <h3>Estas son las opciones de Fernando</h3>
+  <h4>La primera es la correcta siempre</h4>
   <div class="options-container">
     <ul>
       <li @click="salida(option)" v-for="option in options" :key="option.id">

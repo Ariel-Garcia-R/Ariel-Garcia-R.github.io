@@ -1,10 +1,9 @@
 <template>
-  <h3>Opciones de Fernando:</h3>
-  <h4>La primera es la correcta siempre</h4>
+  <h3>Opciones:</h3>
   <div class="options-container">
     <ul>
-      <li @click="salida(option)" v-for="option in options" :key="option.id">
-        {{ option }}
+      <li @click="$emit( 'selection', option.id )" v-for="option in options" :key="option.id">
+        {{ option.name }}
       </li>
     </ul>
   </div>
@@ -12,28 +11,19 @@
 
 <script>
 export default {
-  beforeMount() {
-    this.options.sort();
-  },
   props: {
-    options: Array,
-    nombre: String,
+    options: {
+      type: Array,
+      required: true
+    }
   },
-  methods: {
-    salida(nombre) {
-      if (nombre == this.nombre) {
-        console.log("si");
-      } else {
-        console.log("no");
-      }
-    },
-  },
-};
-</script>
+}
+  </script>
 
 <style scoped>
 ul {
   list-style: none;
+  padding-left: 0px;
 }
 li {
   list-style: none;

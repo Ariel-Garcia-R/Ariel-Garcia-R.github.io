@@ -1,0 +1,10 @@
+{
+  "name": "coex",
+  "short_name": "coex",
+  "icons": [],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#535353",
+  "lang": "es"
+}

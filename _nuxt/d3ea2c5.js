@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[82],{970:function(n,e,t){"use strict";t.r(e);var l={name:"Panel",layout:"admin"},c=t(42),component=Object(c.a)(l,(function(){var n=this,e=n.$createElement;return(n._self._c||e)("h1",{staticClass:"text-center"},[n._v("\n  Panel de inicio del administrador\n")])}),[],!1,null,null,null);e.default=component.exports}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[83],{971:function(e,n,t){"use strict";t.r(n);var l={name:"Panel",layout:"admin"},o=t(42),component=Object(o.a)(l,(function(){var e=this,n=e.$createElement;return(e._self._c||n)("h1",{staticClass:"text-center"},[e._v("\n  Metodos de pago del administrador\n")])}),[],!1,null,null,null);n.default=component.exports}}]);

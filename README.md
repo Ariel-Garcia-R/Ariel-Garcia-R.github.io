@@ -1,4 +1,4 @@
-# Maestrias
+# Maestrías
 
 ## Tecnológicas:
 
@@ -19,7 +19,7 @@
 
 
 
-## Mermeladas:
+## No tecnológicas:
 * Máster Universitario en Iniciativa Emprendedora y Creación de Empresas: 
   https://gestion.fundacioncarolina.es/programas/5766
 
